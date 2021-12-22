@@ -9,6 +9,7 @@ on:
       # - V*
   schedule: # utc 21 点 北京时间 5点
     - cron: '0 21 * * *'
+  workflow_dispatch:
 
 env:
   # 设置 docker 镜像名
