@@ -44,14 +44,14 @@ version: '3'
 services:
   
   overture:
-    image: jasperhale/overture
+    image: maxesisn/overture
     container_name: overture
     restart: always
     ports:
       - "53:53/tcp"
       - "53:53/udp"
-    volumes:
-      - - ./config.yml:/home/overture/config.yml
+    # volumes:
+    #  - ./config.yml:/home/overture/config.yml
 ```
 
 run as a overture server like below:
