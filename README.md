@@ -2,6 +2,9 @@
 
 for chinese user -> [非官方 Overture Docker 镜像](https://github.com/Jasper-1024/docker_overture/blob/master/README_cn.md)
 
+### fork目的
+把`Dockerfile`里的`amd64`改成`arm64`
+
 ## Overture
 
 [overture](https://github.com/shawn1m/overture) is a DNS server/forwarder/dispatcher written in Go.
