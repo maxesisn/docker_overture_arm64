@@ -13,7 +13,7 @@ on:
 env:
   # 设置 docker 镜像名
   IMAGE_NAME: test
-  IMAGE_ID: jasperhale/$IMAGE_NAME
+  IMAGE_ID: maxesisn/$IMAGE_NAME
 
 jobs:
   path-context:
@@ -55,7 +55,7 @@ jobs:
         with:
           context: .
           file: ./Dockerfile
-          platforms: linux/amd64
+          platforms: linux/arm64
           push: true
           # 添加时间标签
           tags: |
