@@ -67,3 +67,6 @@ If you encounter any bugs, you can open a new [issue](https://github.com/Jasper-
 If you have other questions, you can email me.
 
 > <ljy087621@gmail.com>
+
+If you have questions about this arm64 fork, you can email to:
+> <me@maxng.cc>
